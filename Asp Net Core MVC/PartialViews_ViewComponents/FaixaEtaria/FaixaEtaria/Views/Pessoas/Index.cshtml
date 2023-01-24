@@ -1,0 +1,20 @@
+﻿@model IEnumerable<FaixaEtaria.Models.Pessoa>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+@*Mostrando a nossa PartialViews em nosso index.*@
+
+@await Html.PartialAsync("_Adolescentes", Model) 
+@{ 
+    await Html.RenderPartialAsync("_Adultos", Model);
+}
+
+<partial name="_Idosos" model="Model" />

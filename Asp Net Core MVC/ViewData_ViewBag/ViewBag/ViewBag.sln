@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2092
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewBag", "ViewBag\ViewBag.csproj", "{8168F08F-C9AB-4EF0-A25B-FF783DB3FC75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8168F08F-C9AB-4EF0-A25B-FF783DB3FC75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8168F08F-C9AB-4EF0-A25B-FF783DB3FC75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8168F08F-C9AB-4EF0-A25B-FF783DB3FC75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8168F08F-C9AB-4EF0-A25B-FF783DB3FC75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33915AD9-8B3A-41E3-837E-736F66BDB177}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+﻿@model IList<PesquisaCripto.Models.Moedas>
+
+
+<h4>Em qual moeda você investe? </h4>
+<hr />
+@*Vinculando o formulário ao Moedas controller, com a ação (Método) EscolhadeMoedas.*@
+<form asp-controller="Moedas" asp-action="EscolhadeMoedas" method="post" class="form-group">
+    
+    @**Realizando o Loop para percorrer o total de moedas cadastrados e retornar dentro do formulário.*@
+
+    @{
+        for (int i = 0; i < Model.Count(); i++)
+        {
+            <input asp-for="@Model[i].CheckBoxMarcado" type="checkbox" />
+            <label asp-for="@Model[i].MoedasId">@Model[i].Nome</label>
+            <input asp-for="@Model[i].MoedasId>" type="hidden" />
+            <input asp-for="@Model[i].Nome>" type="hidden" />
+            <br />
+        }
+
+        <input type="submit" value="Enviar" class="btn btn-default" />
+    }
+
+</form>

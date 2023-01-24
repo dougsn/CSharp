@@ -1,0 +1,18 @@
+﻿@model IEnumerable<FaixaEtariaViewComponents.Models.Pessoa>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-default">Create New</a>
+</p>
+
+@* "Invocando" a ViewComponent de Adolescente **@
+@await Component.InvokeAsync("Adolescente")
+@* "Invocando" a ViewComponent de Adulto **@
+@await Component.InvokeAsync("Adulto")
+@* "Invocando" a ViewComponent de Idoso **@
+@await Component.InvokeAsync("Idoso")

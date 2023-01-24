@@ -1,0 +1,16 @@
+[
+  {
+    "outputFileName": "#\\Asp Net Core MVC\\ListaTarefas\\ListaTarefas\\wwwroot\\bundle.css",
+    "inputFiles": [
+      "#\\Asp Net Core MVC\\ListaTarefas\\ListaTarefas\\wwwroot\\css\\site.css",
+      "#\\Asp Net Core MVC\\ListaTarefas\\ListaTarefas\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    ]
+  },
+  {
+    "outputFileName": "#\\Asp Net Core MVC\\ListaTarefas\\ListaTarefas\\wwwroot\\bundle.js",
+    "inputFiles": [
+      "#\\Asp Net Core MVC\\ListaTarefas\\ListaTarefas\\wwwroot\\lib\\bootstrap\\dist\\js\\npm.js",
+      "#\\Asp Net Core MVC\\ListaTarefas\\ListaTarefas\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    ]
+  }
+]

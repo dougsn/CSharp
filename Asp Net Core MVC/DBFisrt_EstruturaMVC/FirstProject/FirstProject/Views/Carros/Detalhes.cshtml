@@ -1,0 +1,22 @@
+﻿@model  Carro
+@{
+    ViewData["Title"] = "Detalhes";
+}
+<style>
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 75vh;
+        font-size: 40px;
+    }
+</style>
+<h2>Detalhes</h2>
+
+<div class="content">
+
+    @Html.DisplayFor(modelItem => Model.Marca)
+    @Html.DisplayFor(modelItem => Model.Nome)
+    @Html.DisplayFor(modelItem => Model.Ano)
+
+</div>
