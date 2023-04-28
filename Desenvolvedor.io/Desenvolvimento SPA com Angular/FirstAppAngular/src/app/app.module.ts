@@ -18,6 +18,8 @@ import { rootRouterConfig } from './app.routes';
 import { DataBindingComponent } from './demos/data-binding/data-binding.component';
 import { ProdutoService } from './produtos/produtos.service';
 import { ListaProdutoComponent } from './produtos/lista-produto/lista-produto.component';
+import { ListaCategoriaComponent } from './categorias/lista-categoria/lista-categoria.component';
+import { CategoriaService } from './categorias/categoria.service';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,8 @@ import { ListaProdutoComponent } from './produtos/lista-produto/lista-produto.co
     SobreComponent,
     ContatoComponent,
     DataBindingComponent,
-    ListaProdutoComponent
+    ListaProdutoComponent,
+    ListaCategoriaComponent
   ],
   imports: [
     HttpClientModule,
@@ -38,6 +41,7 @@ import { ListaProdutoComponent } from './produtos/lista-produto/lista-produto.co
   ],
   providers: [
     ProdutoService,
+    CategoriaService,
     {provide: APP_BASE_HREF, useValue: '/'} // Dizendo que o meu link básico é '/'
   ],
   bootstrap: [AppComponent]
